@@ -17,21 +17,11 @@ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVE
 POSSIBILITY OF SUCH DAMAGE.
 */
 
-// #include "cinder/CameraUi.h"
-// #include "cinder/Font.h"
-// #include "cinder/ObjLoader.h"
-// #include "cinder/TriMesh.h"
+
 #include "cinder/app/App.h"
 #include "cinder/app/RendererGl.h"
-// #include "cinder/gl/Batch.h"
-// #include "cinder/gl/Fbo.h"
-// #include "cinder/gl/GlslProg.h"
-// #include "cinder/gl/Shader.h"
-// #include "cinder/gl/draw.h"
-// #include "cinder/gl/scoped.h"
-
 #include "cinderHapVideoPlayer.h"
-//#include internal.h
+
 
 
 using namespace ci;
