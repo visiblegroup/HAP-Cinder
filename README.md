@@ -8,6 +8,8 @@ Hap is a video codec that is decoded on the GPU. Some of its benefits include fa
 ## Requirements
 Before encoding videos using Hap codec, install the Hap codec for Direct Show. An installer is available from [Renderheads website](http://www.renderheads.com/downloads/2015/HapDirectShowCodecSetup.exe).
 
+In order to play the video, open BasicApp.sln and in BasicApp.sln on line 136 change the location of the HAP file. This should work with Hap, HapA and HapQ codecs.
+
 ## Notes (copied from ofxDSHapVideoPlayer Repo)
 - HAP-Cinder plays back Hap videos in .avi containers. It will not play back Hap-encoded video files in QuickTime movie containers. Encode Windows .avi files using Adobe Media Encoder, After Effects or other.
 - Sample Hap video files are available on http://renderheads.com/product/hap-for-directshow/
