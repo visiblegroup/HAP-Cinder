@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="DirectShow">
+      <UniqueIdentifier>{6f2f81f5-a96d-4057-b549-1d3fe0f532e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectShow\BaseClasses">
+      <UniqueIdentifier>{26ab3f09-b6c0-4140-a750-a7052e053c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HapPlayer">
+      <UniqueIdentifier>{7b738602-0f2b-4626-848e-ab834f832228}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\BasicApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BasicApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\amextra.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\amfilter.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\amvideo.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\arithutil.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\combase.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\cprop.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\ctlutil.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\ddmm.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\dllentry.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\dllsetup.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\mtype.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\outputq.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\perflog.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\pstream.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\pullpin.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\refclock.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\renbase.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\schedule.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\seekpt.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\source.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\strmctl.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\sysclock.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\transfrm.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\transip.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\videoctl.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\vtrans.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\winctrl.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\winutil.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\wxdebug.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\wxlist.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\wxutil.cpp">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cinderHapVideoPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\src\DSUncompressedSampleGrabber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\snappy\snappy.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\snappy\snappy-c.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\snappy\snappy-sinksource.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\amextra.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\amfilter.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\cache.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\checkbmi.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\combase.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\cprop.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\ctlutil.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\ddmm.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\dllsetup.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\dxmperf.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\fourcc.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\measure.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\msgthrd.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\mtype.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\outputq.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\perflog.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\perfstruct.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\pstream.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\pullpin.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\refclock.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\reftime.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\renbase.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\schedule.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\seekpt.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\source.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\streams.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\strmctl.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\sysclock.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\transfrm.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\transip.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\videoctl.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\vtrans.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\winctrl.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\winutil.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\wxdebug.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\wxlist.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\wxutil.h">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\cinderHapVideoPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\src\DSShared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\baseclasses.vcproj">
+      <Filter>DirectShow\BaseClasses</Filter>
+    </None>
+  </ItemGroup>
+</Project>

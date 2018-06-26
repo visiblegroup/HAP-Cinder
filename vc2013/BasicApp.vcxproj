@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_ANGLE|Win32">
+      <Configuration>Debug_ANGLE</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_ANGLE|Win32">
+      <Configuration>Release_ANGLE</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9EA67F39-A8C1-438A-9860-37E9AC13BEB7}</ProjectGuid>
+    <RootNamespace>BasicApp</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>OFHapPlayer</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_ANGLE|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_ANGLE|Win32'" Label="Configuration">
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_ANGLE|Win32'" Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_ANGLE|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_ANGLE|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug_ANGLE|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;..\..\..\include;..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\src;..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\snappy;..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NOMINMAX;_WIN32_WINNT=0x0502;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ShowIncludes>true</ShowIncludes>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>"..\..\..\include";..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>cinder-$(PlatformToolset)_d.lib;OpenGL32.lib;winmm.lib;d3d9.lib;strmiids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>"..\..\..\lib\msw\$(PlatformTarget)"</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;LIBCPMT</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;..\include\GL;..\..\..\include;..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\src;..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\snappy;..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses;</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NOMINMAX;_WIN32_WINNT=0x0502;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ShowIncludes>true</ShowIncludes>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>"..\..\..\include";..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>cinder-$(PlatformToolset)_d.lib;OpenGL32.lib;winmm.lib;d3d9.lib;strmiids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\lib\msw\$(PlatformTarget)\</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <IgnoreSpecificDefaultLibraries>LIBCMT;LIBCPMT</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_ANGLE|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;"..\..\..\include";"..\..\..\include\ANGLE"</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>CINDER_GL_ANGLE;WIN32;_DEBUG;_WINDOWS;NOMINMAX;_WIN32_WINNT=0x0502;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>"..\..\..\include";..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>cinder-$(PlatformToolset)-ANGLE_d.lib;libEGL.lib;libGLESv2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>"..\..\..\lib\msw\$(PlatformTarget)"</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;LIBCPMT</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y "..\..\..\lib\msw\x86\libGLESv2.dll" "$(OutDir)"
+xcopy /y "..\..\..\lib\msw\x86\libEGL.dll" "$(OutDir)"
+xcopy /y "..\..\..\lib\msw\x86\d3dcompiler_46.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\include;..\..\..\include;..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\src;..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\snappy;..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_WIN32_WINNT=0x0502;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>"..\..\..\include";..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>cinder-$(PlatformToolset).lib;OpenGL32.lib;winmm.lib;d3d9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>"..\..\..\lib\msw\$(PlatformTarget)"</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding />
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\include;..\include\GL;..\..\..\include;..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\src;..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\snappy;..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses;</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_WIN32_WINNT=0x0502;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>"..\..\..\include";..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>cinder-$(PlatformToolset).lib;OpenGL32.lib;winmm.lib;d3d9.lib;strmiids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>"..\..\..\lib\msw\$(PlatformTarget)"</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding />
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_ANGLE|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\include;"..\..\..\include";"..\..\..\include\ANGLE"</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>CINDER_GL_ANGLE;CINDER_GL_ES_3;WIN32;NDEBUG;_WINDOWS;NOMINMAX;_WIN32_WINNT=0x0502;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>cinder-$(PlatformToolset)-ANGLE.lib;libEGL.lib;libGLESv2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>"..\..\..\lib\msw\$(PlatformTarget)"</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <IgnoreSpecificDefaultLibraries />
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>"..\..\..\include";..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>xcopy /y "..\..\..\lib\msw\x86\libGLESv2.dll" "$(OutDir)"
+xcopy /y "..\..\..\lib\msw\x86\libEGL.dll" "$(OutDir)"
+xcopy /y "..\..\..\lib\msw\x86\d3dcompiler_46.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\baseclasses.vcproj" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\amextra.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\amfilter.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\amvideo.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\arithutil.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\combase.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\cprop.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\ctlutil.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\ddmm.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\dllentry.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\dllsetup.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\mtype.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\outputq.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\perflog.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\pstream.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\pullpin.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\refclock.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\renbase.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\schedule.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\seekpt.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\source.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\strmctl.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\sysclock.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\transfrm.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\transip.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\videoctl.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\vtrans.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\winctrl.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\winutil.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\wxdebug.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\wxlist.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\wxutil.cpp" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\snappy\snappy-c.cc" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\snappy\snappy-sinksource.cc" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\snappy\snappy.cc" />
+    <ClCompile Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\src\DSUncompressedSampleGrabber.cpp" />
+    <ClCompile Include="..\src\BasicApp.cpp" />
+    <ClCompile Include="..\src\cinderHapVideoPlayer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\amextra.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\amfilter.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\cache.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\checkbmi.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\combase.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\cprop.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\ctlutil.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\ddmm.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\dllsetup.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\dxmperf.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\fourcc.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\measure.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\msgthrd.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\mtype.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\outputq.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\perflog.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\perfstruct.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\pstream.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\pullpin.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\refclock.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\reftime.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\renbase.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\schedule.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\seekpt.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\source.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\streams.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\strmctl.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\sysclock.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\transfrm.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\transip.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\videoctl.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\vtrans.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\winctrl.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\winutil.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\wxdebug.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\wxlist.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\libs\External\DirectShow\BaseClasses\wxutil.h" />
+    <ClInclude Include="..\..\..\..\..\openFrameworks\addons\ofxDSHapVideoPlayer\src\DSShared.h" />
+    <ClInclude Include="..\include\cinderHapVideoPlayer.h" />
+    <ClInclude Include="..\include\Resources.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
